@@ -1,0 +1,40 @@
+{
+  "name": "ddivfs",
+  "version": "1.0.4-beta.2.0",
+  "description": "ddivfs 📂🔒 - A Secure and Efficient File Upload Middleware for Node.js. ddivfs is a lightweight and highly secure file upload middleware designed for seamless file uploads with built-in security features and optimizations. Whether you're handling images, videos, or documents, ddivfs processes your files efficiently and protects your server from potential threats.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "file-upload",
+    "nodejs",
+    "middleware",
+    "secure-upload",
+    "express",
+    "file-validation",
+    "cloud-storage",
+    "ddiv-for-developers",
+    "node.js-file-upload",
+    "send-file-from-front-end-to-backend"
+  ],
+  "author": "DDIV Online (https://ddiv.online)",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Abdifitahmohamuud/ddivfs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Abdifitahmohamuud/ddivfs/issues"
+  },
+  "homepage": "https://ddiv.online",
+  "dependencies": {
+    "ddivfs": "file:",
+    "express": "^4.17.1",
+    "multer": "^1.4.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
